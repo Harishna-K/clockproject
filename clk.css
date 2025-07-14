@@ -1,0 +1,122 @@
+body {
+  background: linear-gradient(to bottom, #0f2027, #203a43, #2c5364);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  cursor: pointer;
+  margin: 0;
+  padding: 0;
+}
+
+.outerclock {
+  width: 350px;
+  height: 350px;
+  background: radial-gradient(circle, #111 60%, #000 100%);
+  border: 10px solid #00f2fe;
+  box-shadow: 0 0 25px #00f2fe, inset 0 0 15px #00f2fe;
+  border-radius: 50%;
+  margin: 12% auto;
+  position: relative;
+  
+}
+
+.innerclock {
+  width: 280px;
+  height: 280px;
+  margin: 35px auto;
+  background: radial-gradient(circle, #222, #111);
+  border-radius: 50%;
+  position: relative;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.circle {
+  width: 20px;
+  height: 20px;
+  background: #fff;
+  border-radius: 50%;
+  position: absolute;
+  top: 46%;
+  left: 46%;
+  z-index: 4;
+  box-shadow: 0 0 10px #fff;
+}
+
+#hour,
+#min,
+#sec {
+  position: absolute;
+  border-radius: 50% 50% 0 0;
+  transform-origin: bottom;
+}
+
+#hour {
+    width: 10px;
+    height: 75px;
+    background:yellow;
+    position: absolute;
+    top: 24%;
+    left: 47.5%;
+    border-radius: 50% 50% 0px 0px;
+    transform-origin: bottom;
+    z-index: 2;
+}
+
+#min {
+  width: 8px;
+    height:110px;
+    background:rgb(12, 231, 155);
+    position: absolute;
+    top: 11%;
+    left: 47.5%;
+    border-radius: 50% 50% 0px 0px;
+    transform-origin: bottom;
+    z-index: 1;
+}
+
+#sec {
+  width: 5px;
+    height: 120px;
+    background:red;
+    position: absolute;
+    top: 8%;
+    left: 48.2%;
+    border-radius: 50% 50% 0px 0px;
+    transform-origin: bottom;
+    z-index: 3;
+}
+
+.time p {
+  font-weight: bold;
+  font-size: 22px;
+  text-shadow: 1px 1px 4px #000;
+  color: #00f2fe;
+}
+
+.time p:nth-child(1) {
+  position: absolute;
+  left: 48%;
+  top: -8%;
+}
+
+.time p:nth-child(2) {
+  position: absolute;
+  left: 3%;
+  top: 39%;
+}
+
+.time p:nth-child(3) {
+  position: absolute;
+  left: 49%;
+  top: 85%;
+}
+
+.time p:nth-child(4) {
+  position: absolute;
+  left: 91%;
+  top: 39%;
+}
