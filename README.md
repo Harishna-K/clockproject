@@ -2,7 +2,6 @@
 
 A sleek, animated, and fully responsive **analog clock** built with **HTML**, **CSS**, and **JavaScript**. This project features a custom clock face, dynamic hour/minute/second hands, and a center image, all beautifully styled with gradients and shadows.
 
-![Clock Preview](clock_preview.png)
 
 ---
 
@@ -50,7 +49,7 @@ responsive-clock/
 
 ### 🖼️ Live Clock Demo
 
-[🎬 Watch Clock Video](clock.mp4)
+![Clock Preview](clock_preview.png)
 
 
 ---
