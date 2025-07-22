@@ -2,6 +2,7 @@
 
 A sleek, animated, and fully responsive **analog clock** built with **HTML**, **CSS**, and **JavaScript**. This project features a custom clock face, dynamic hour/minute/second hands, and a center image, all beautifully styled with gradients and shadows.
 
+![Clock Preview](clock_preview.png)
 
 ---
 
@@ -13,16 +14,6 @@ A sleek, animated, and fully responsive **analog clock** built with **HTML**, **
 - 🌈 Modern UI with gradients and shadows
 - 💫 Smooth animations using `transform`
 - ⚙️ Lightweight — no external libraries needed
-
----
-
-## 🛠️ Tech Stack
-
-| Technology | Description |
-|------------|-------------|
-| HTML5 | Markup structure |
-| CSS3 | Custom styles, gradients, and responsiveness |
-| JavaScript | Time updates for rotating clock hands |
 
 ---
 
@@ -45,45 +36,31 @@ responsive-clock/
 
 ---
 
-## 📸 Screenshot
+## 🚀 Live Demo
 
-### 🖼️ Live Clock Demo
-
-![Clock Preview](clock_preview.png)
-
+You can check out the deployed project here:  
+👉 https://harishna-k.github.io/clockproject/
 
 ---
 
-## ⚙️ Getting Started
+## 🛠️ Installation & Usage
 
-### 📥 Clone the repository
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/Harishna-K/clockproject.git
+   cd clockproject
+   
+2. Open index.html in your browser
+   Or use Live Server in VS Code.
 
-```bash
-git clone https://github.com/Harishna-K/clockproject.git
 
-cd clockproject
+## 🛠️ Tech Stack
 
-💻 Open in Browser
-You can simply open index.html in your browser:
-start index.html
+| Technology | Description |
+|------------|-------------|
+| HTML5 | Markup structure |
+| CSS3 | Custom styles, gradients, and responsiveness |
+| JavaScript | Time updates for rotating clock hands |
 
-💡 You can also use Live Server in VS Code for auto-reload.
-
-✏️ Customization
-Replace images/hari.jpg with your own center image.
-
-Update clock-preview.png with a new screenshot of your version.
-
-Change the color scheme or hand styles in clk.css.
-
-📬 Contact
-Made with 💙 by Harishna K
-
-GitHub Profile: https://github.com/Harishna-K
-
-Email: harishna.gkc@gmail.com.com
-
-📄 License
-This project is licensed under the MIT License. Feel free to use, modify, or distribute.
 
 
